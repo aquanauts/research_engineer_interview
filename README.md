@@ -24,7 +24,7 @@ Please commit your code as you go so that we can get a sense of your development
 
 2. Imagine that this data (data version 1) was being generated in a live fashion, one timestamp at a time, as real time passes. At each timestamp, generate a linear model similar to task 1 using all the data up to that timestamp.
 
-3. Fit a linear model in the same way as task 1 using data version 2. If possible, total memory usage should be kept under 1GB (or under 6 GB in a less advanced solution), and computation time should be under 10 minutes.
+3. Fit a linear model in the same way as task 1 using data version 2. If possible, total memory usage should be kept under 1GB (or under 6 GB in a less advanced solution), and data generation + computation time should be under 10 minutes.
 
 4. Perform task 3 using data version 2, but include an L2 penalty in the regression (i.e. ridge regression). Perform this regression for a range of L2 penalties and choose a method for selecting the "best" penalty hyperparameter. If the live fit (one for every timestamp) is not feasible, an L2 regression on the entire data set is still valuable. Additionally, a researcher has requested the ability to be able to "quickly" run any new arbitrary L2 penalty and calculate an R^2 as a trial (where quickly is <1 minute) without having to leave the Python process running between trials.
 
