@@ -16,7 +16,7 @@ Throughout these tasks, we are more interested in the speed, efficiency, and imp
 
 Feel free to install other Python packages to help you complete the tasks (e.g. sklearn, scipy, etc.) as well as use the various features of the Python standard library.
 
-Please commit your code as you go so that we can get a sense of your development process. You can collect your analysis results in whatever way you want (e.g. a separate write-up)
+Please commit your code as you go so that we can get a sense of your development process. You can share your code with us using a private Github repo or a zipped raw git repo. You can collect your analysis results in whatever way you want (e.g. a separate write-up).
 
 # Tasks:
 
