@@ -118,7 +118,7 @@ class VersionedDataSet:
         return (self.data_version * num_dates + date_offset) * len(self.feature_set_name_to_index) \
             + self.feature_set_name_to_index[scope.feature_set_name]
 
-    def make_generator(self, scope: FeatureSetDateScope) -> np.random.generator:
+    def make_generator(self, scope: FeatureSetDateScope) -> np.random.Generator:
         return make_generator(self.seed(scope))
 
     def samples_per_day(self, config: FeatureSetConfig) -> int:
@@ -177,7 +177,7 @@ def make_feature_names(set_name: str, num_features: int):
     return [set_name + '_f' + str(i).zfill(math.ceil(math.log10(num_features))) for i in range(num_features)]
 
 
-def make_generator(seed: int) -> np.random.generator:
+def make_generator(seed: int) -> np.random.Generator:
     return np.random.Generator(np.random.PCG64(seed=seed))
 
 
