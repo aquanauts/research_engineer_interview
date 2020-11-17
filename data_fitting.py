@@ -20,7 +20,7 @@ r_squared = compute_r_squared(predicted_c, data_c.values)
 
 # Task 5
 
-target_feature = 'A_f09'
+target_feature = 'A_f009'
 sorted_values = np.array([])
 sorted_timestamps = np.array([])
 
